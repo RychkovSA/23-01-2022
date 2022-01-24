@@ -74,7 +74,6 @@ body{
 }
 .categories{
     padding-top: 65px;
-    padding-bottom: 85px;
 }
 .categories-wrap{
     display: flex;
@@ -118,9 +117,58 @@ body{
     color: #F16D7F;
 }
 .products-wrap{
-    display: flex;
-    justify-content: space-around;
     height: 1395px;
+    margin-top: 96px;
+    margin-bottom: 95px;
+}
+.products-titles{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.products-week{
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.products-flexblock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.products-cart-text{
+    margin: 25px 29px 20px 16px;
+}
+.products-text1{
+    width: 315px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-top: 13px;
+}
+.products-text2{
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+.products-Browse{
+    padding: 15px 39px 14px 39px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #F26376;
+    background-color: transparent;
+    margin: 0 auto;
 }
 .benefits{
     background-color: #222222;
@@ -155,10 +203,13 @@ body{
     color: #FBFBFB;
 }
 .feedback{
-    background-color:#D73C3C;
     height: 448px;
-    padding-top: 97px;
-    padding-bottom: 128px;
+    background-image: url(../img/bg-subscribe.jpg);
+    background-repeat: no-repeat;
+}
+.feedback-wrap{
+    display: flex;
+    justify-content: space-between;
 }
 .footer{
     background-color: #222222;

@@ -240,9 +240,10 @@ body{
 .feedback-col2-text{
     font-weight: bold;
     font-size: 24px;
-    line-height: 167.2%;
+    line-height: 100%;
     text-align: center;
     color: #222224;
+    margin-bottom: 32px;
 }
 .feedback-col2-text2{
     font-style: normal;
@@ -250,6 +251,32 @@ body{
     font-size: 18px;
     text-align: center;
     color: #222224;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-field{
+    width: 256px;
+    height: 49px;
+    color: #222222;
+    padding: 7px 64px 6px 22px;
+    background: #E1E1E1;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+.form-field::placeholder{
+    color: #222224;
+    opacity: 0.67;;
+}
+.form-button{
+    background: #F16D7F;
+    color: #FFFFFF;
+    width: 100px;
+    height: 49px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
 }
 .footer{
     background-color: #222222;
@@ -273,5 +300,5 @@ body{
     color: transparent;
 }
 .instagram-link, .paint-link, .bird-link{
-    margin-left: 7,29px;
+    margin-left: 7px;
 }
